@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root{font-family:"DM Sans",sans-serif;color:#172b3a;background:#fff;font-synthesis:none;text-rendering:optimizeLegibility}
 *{box-sizing:border-box}body{margin:0;min-width:320px}button,input,select,textarea{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #79c8a4;outline-offset:2px}
 :root{--navy:#102a43;--navy2:#173f5f;--green:#16845b;--green2:#0e704b;--muted:#6b7c8c;--line:#e4eaf0;--pale:#f5f8fa}
